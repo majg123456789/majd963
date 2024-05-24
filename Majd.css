@@ -1,0 +1,74 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Online Store</title>
+    <link rel="stylesheet" href="C:\Users\Majd\Desktop\Majd.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Online Store</h1>
+    </header>
+
+    <section class="products">
+        <div class="product">
+            <img src="images/product1.jpg" alt="Product 1">
+            <h2>Product 1</h2>
+            <p>Price: $50</p>
+        </div>
+        <div class="product">
+            <img src="images/product2.jpg" alt="Product 2">
+            <h2>Product 2</h2>
+            <p>Price: $75</p>
+        </div>
+        <!-- Add more products here -->
+    </section>
+
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <p>For inquiries, please contact us via WhatsApp:</p>
+        <a href="https://wa.me/1234567890" target="_blank">Click here to chat on WhatsApp</a>
+    </section>
+
+    <footer>
+        © 2024 My Online Store
+    </footer>
+</body>
+</html>
+* {
+    box-sizing: border-box;
+} -->
+
+/* Style inputs */
+input[type="text"], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type="submit"] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+/* Create two columns that float next to each other */
+.column {
+    float: left

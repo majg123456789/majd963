@@ -1,0 +1,66 @@
+/* styles.css */
+
+/* Reset default browser styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffff;
+
+}
+
+/* Header navigation styles */
+nav {
+    background-color: #e9fe02;
+       color: #e9fe02;
+    ;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #000 ;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #e9fe02;
+}
+
+/* Section styles */
+section {
+    padding: 40px;
+}
+
+h1, h2 {
+       color: #000000;
+}
+
+/* Contact section styles */
+#contact ul {
+    list-style: none;
+}
+
+#contact ul li {
+    margin-bottom: 10px;
+}
+
+#contact a {
+     color: #000;
+    ;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
